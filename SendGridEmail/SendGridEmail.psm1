@@ -55,10 +55,10 @@ function Send-EmailWithSendGrid {
 }
 
 #---------------------
-$From = "from_email_user@gmail.com"
-$To = @('touser1_email_user@gmail.com','touser2_email_user@gmail.com')  # Replace with actual recipient addresses
-$Cc = @('touser3_email_user@gmail.com','touser4_email_user@gmail.com')          # Replace with actual CC addresses if needed
-$APIKEY = "API_Secret"
-Send-EmailWithSendGrid -From $From -To $To -Cc $Cc -ApiKey $APIKEY -Subject $Subject -Body $Body
+# $From = "from_email_user@gmail.com"
+# $To = @('touser1_email_user@gmail.com','touser2_email_user@gmail.com')  # Replace with actual recipient addresses
+# $Cc = @('touser3_email_user@gmail.com','touser4_email_user@gmail.com')          # Replace with actual CC addresses if needed
+# $APIKEY = "API_Secret"
+# Send-EmailWithSendGrid -From $From -To $To -Cc $Cc -ApiKey $APIKEY -Subject $Subject -Body $Body
 
 #----------------------
