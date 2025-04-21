@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SendGridEmail</id>
+    <version>1.0.0</version>
+    <authors>Rajkumar</authors>
+    <owners>Rajkumar</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple PowerShell wrapper function to send emails using SendGrid API.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <projectUrl>https://github.com/Rajkumar-21/SendGridEmail</projectUrl>
+    <tags>powershell sendgrid email smtp api</tags>
+  </metadata>
+  <files>
+    <file src="SendGridEmail.psd1" target="SendGridEmail" />
+    <file src="SendGridEmail.psm1" target="SendGridEmail" />
+  </files>
+</package>
